@@ -15,7 +15,7 @@
  
 }
 .container{
-   width: 80%;
+   width: 100%;
   /* height: 90vh; */
   background-color: white;
   /* text-align: center; */
@@ -26,7 +26,7 @@
    
 }
 .second{
-  width: 50%;
+  width: 100%;
   /* border: 1px solid rebeccapurple; */
   margin-right: 50px;
 }
@@ -47,9 +47,20 @@
 .get{
   margin-top: 30px;
 }
-
+@media (min-width:768px) {
+  .d1{
+    height: 100vh;
+  }
+  .second{
+    width: 70%;
+  }
+  
+}
 
 @media (min-width:1024px) {
+  .second{
+    width: 50%;
+  }
   .left{
     display: flex;
     flex-direction: row;
