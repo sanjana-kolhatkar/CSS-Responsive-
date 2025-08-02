@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:serif;
+}
+.d1{
+    /* width: 100%; */
+    /* height: 100vh; */
+    background-image: url("about1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 23px;
+}
+.container{
+    width: 90%;
+    /* height: 80vh; */
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+.container p{
+    font-size: 15px;
+}
+
+.vision{
+    margin: 20px;
+     text-align: left;
+}
+.value{
+    margin: 20px;
+     text-align: left;
+}
+.value li{
+    list-style: none;
+    padding-left: 15px;
+}
+.third{
+      background-color: #ffe6f0;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+     
+       
+}
+
+.third h5{
+    font-size: 17px;
+}
+
+
+img{
+    border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    
+}
+
+
+@media (min-width:768px) {
+    .container h2{
+    font-size: 38px;
+}
+
+    .container p{
+    font-size: 25px;
+}
+
+.vision h3{
+    font-size: 33px;
+}
+.vision p{
+    font-size: 25px;
+}
+
+.value h3{
+    font-size: 33px;
+}
+.value li{
+    font-size: 26px;
+}
+
+.Free h5{
+    font-size: 29px;
+
+}
+.Free p{
+    font-size: 28px;
+
+}
+.Friendly h5{
+    font-size: 29px;
+
+}
+.Friendly p{
+    font-size: 28px;
+
+}
+
+.Sustainable h5{
+    font-size: 29px;
+
+}
+.Sustainable p{
+    font-size: 28px;
+
+}
+
+.container h4{
+    font-size: 28px;
+}
+
+.container p{
+    font-size: 25px;
+}
+}
+@media (min-width:1024px) {
+
+    .d1{
+          display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px;
+    }
+    .container{
+        width: 60%;
+        margin-left: 40px;
+        
+    }
+   
+    
+}

@@ -1,0 +1,33 @@
+body {
+      background: linear-gradient(to right, #f8cdda, #f88fac);
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .filter-bar {
+      background-color: #ffeef3;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+    .product-card {
+      border: none;
+      border-radius: 15px;
+      transition: transform 0.3s;
+      background-color: #fff;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .product-card:hover {
+      transform: scale(1.05);
+    }
+    .product-image {
+      height: 150px;
+      object-fit: contain;
+    }
+    .btn-custom {
+      background-color: #f75990;
+      color: white;
+    }
+    .btn-custom:hover {
+      background-color: #e4467f;
+    }
+ 
